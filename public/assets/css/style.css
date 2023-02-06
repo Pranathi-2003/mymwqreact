@@ -1,0 +1,356 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+/*---------------------------------------------------------------- header */
+.nav-item{
+  text-size-adjust: 10rem;
+  color:white;
+  padding-left:2rem;
+}
+
+
+
+/* --------------------------------------------------------------------body */
+.landing_about_section{
+  background: url(../images/bgpic.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:9rem 0
+}
+ 
+.about-content p,h2{
+  color:white;
+  margin-bottom: 2rem;
+}
+.landing_about_section a{
+  -webkit-text-fill-color: white;
+  border:1rem;
+  border-color:white;
+}
+
+
+
+/* ---------------------------------------------------------about page */
+.main{
+  padding-left: 5rem;
+  width:80%;
+}
+.main p,li{
+  padding:0.5rem;
+}
+
+
+/*------------------------------------------------login page------------------------------------- */
+
+.login {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.col {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 1200px) {
+  .col {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/* Style the counter cards */
+.users {
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+
+}
+.users:hover{
+    box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.responsive{
+    width:100%;
+    height:auto;
+}
+.login h2{
+  color:black;
+    text-align: center;
+    margin-top: 5%;
+} 
+
+
+
+/*--------------------------------------------------------- footer */
+.footer{
+  width:100%;
+  text-align:center;
+  padding:30px 0;
+  background-color: lightgray;
+}
+.footer h4{
+  margin-bottom:25px;
+  margin-top:20px;
+  font-weight:600;
+  padding:10px;
+  background-color: lightgray;
+}
+.icons .fa{
+  color:red;
+  margin:0 13px;
+  cursor:pointer;
+  padding:18px 0;
+}
+.fa-heart-o{
+  color:red;
+}
+/*------------------------------------------------------management dashboard */
+/* .well h1{
+  text-align: center;
+} */
+.well h2{
+  color:black;
+}
+/* --------------------------------login form(student,parent etc)------------------------------------ */
+
+.login_form button {   
+  background-color:gray;   
+  width: 100%;  
+  color:white;   
+  padding: 15px;   
+  margin: 10px;   
+  border: none;   
+  border-radius: 1rem;
+  cursor: pointer;   
+}   
+
+.details input,option,select{   
+  width: 100%;   
+  margin: 8px 0;  
+  padding: 12px 20px;   
+  display: inline-block;      
+  box-sizing: border-box;   
+}  
+.login_form button:hover {   
+  opacity: 0.7;   
+}   
+.cancelbtn {   
+  width: auto;   
+  padding: 10px 18px;  
+  margin: 10px 5px;  
+}   
+.login_form.container {   
+  padding: 25px;   
+  background-color: lightblue;  
+}   
+
+/* management login */
+.main-manage_login{
+  width:100vm;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.inner-mange_login{
+  width:60vm;
+  background-color: white;
+  padding:3rem 8rem;
+  
+}
+
+
+/* official login */
+.main-official_login{
+  width:100vm;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(lightblue,lightgrey);
+}
+.inner-official_login{
+  width:60vm;
+  background-color: white;
+  padding:3rem 8rem;
+  border-style: solid;
+}
+
+
+
+/* parent login */
+.main-parent_login{
+  width:100vm;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color:lightblue;
+}
+.inner-parent_login{
+  width:60vm;
+  background-color: white;
+  padding:3rem 8rem;
+  
+}
+
+/* teacher login */
+.main-teacher-login{
+  width:100vm;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color:lightblue;
+}
+.inner-teacher-login{
+  width:60vm;
+  background-color: white;
+  padding:3rem 8rem;
+  
+}
+
+/* student login */
+.main-student-login{
+  width:100vm;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: white;
+
+}
+.inner-student-login{
+  width:60vm;
+  background-color:lightblue;
+  padding:3rem 8rem;
+  
+}
+/* ---------------------------school dashboard---------------------------------- */
+.schl_dash button{
+  border: none;
+  background-color: blueviolet;
+  color:white;
+  border-radius: 1rem;
+  height:auto;
+  padding:0.6rem;
+}
+.schl_dash button:hover{
+  background-color: violet;
+  color:black;
+}
+.schl_dash h1{
+  text-align: center;
+}
+.name{
+  text-align: center;
+}
+
+.schl_dash h2{
+  color: black;
+}
+.colu{
+  background-color:#f5f5f5;
+  padding:2rem;
+}
+/* -------------------------------quiz pages-------------------------------------- */
+
+
+.main-div{
+  width:100vm;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: hsl(206,92%,98%);
+}
+.inner-div{
+  width:60vm;
+  background-color: white;
+  padding:3rem;
+  border-radius: 1rem;
+  box-shadow:0 1rem 1rem -0.7rem black;
+}
+.inner-div h2{
+  color:black;
+  font-weight: 500;
+}
+.inner-div li{
+  font-size: 1.5rem;
+  font-weight: 400;
+  list-style: none;
+}
+input{
+  cursor:pointer;
+}
+#submit,.btn{
+  padding:1rem 3rem;
+  outline: none;
+  font-size: 2rem;
+  font-size: 400;
+  display:block;
+  margin:auto;
+  border:none;
+  text-transform: uppercase;
+  color:white;
+  background-color:darkcyan;
+  margin-top: 4rem;
+  cursor: pointer;
+  border-radius:1rem;
+
+}
+#submit:hover{
+  background-color:lightcyan;
+  color:black;
+}
+#showscore{
+  background-color: aquamarine;
+  margin-top: 3rem;
+  padding:3rem 4rem;
+  box-shadow:0 1rem 1rem -0.7rem black;
+
+}
+
+#showscore h3,h1{
+  font-size:3rem;
+  font-weight:500;
+  text-align:center;
+}
+#showscore h1{
+  font-weight:400;
+}
+#showscore .btn{
+  margin-top: 2rem;
+  display:block;
+  color:white;
+  background-color:darkcyan;
+  font-size: 2rem;
+  font-size: 400;
+}
+
+#showscore .btn:hover{
+  background-color:lightseagreen;
+  color:black;
+}
+.scorearea{
+  display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------------- */
